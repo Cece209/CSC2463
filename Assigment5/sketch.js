@@ -1,6 +1,4 @@
 
-
-
   let soundFX = new Tone.Players ({
     fast : "assets/bbc_fast-flowi_nhu0510424.mp3",
     tibetan : "assets/bbc_tibetan-sn_nhu0501102.mp3",
@@ -14,20 +12,6 @@
   soundFX.connect(delay);
   delay.toDestination(); 
  
-
-
-
-//let delAmt = new Tone.FeedbackDelay ("8n", 0.5);
-//let distAmt = new Tone.Distortion(0.5);
-
-
-//let delaySlider, fbSlider, distSlider;
-
-//sounds.connect(delAmt);
-//delAmt.connect(distAmt);
-//sounds.toDestination();
- 
-
 function setup() {
   createCanvas(400, 400);
   button1 = createButton('fast');
@@ -50,14 +34,6 @@ function setup() {
   delaySlider = createSlider(0, 1, 0, 0.05);
   delaySlider.position(120, 325)
   delaySlider.mouseReleased( () => delay.delayTime.value = delaySlider.value());
-
-  //delaySlider = createSlider (0, 1, 0, 0.05);
-  //delaySlider.position (120, 200);
- // delaySlider.mouseMoved(() => delAmt.delayTime.value = delaySlider.value());
-
-  //fbSlider = createSlider (0, 0.9, 0, 0.05);
-  //fbSlider.position (130, 250);
-  //fbSlider.mousedMoved(() => delAmt.feedback.value = fbSlider.value());
 }
 
 function draw() {
