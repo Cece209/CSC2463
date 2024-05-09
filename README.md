@@ -1,7 +1,11 @@
                                                   Spotlight Sprint 
+Project Outline:
+
 This game is a heart pounding reflex game where players must nagivate a course while paying close attention to the character at the end of the
 course. The objective is to reach to the finish line before the time runs out, but the player must freeze when the character turns to face the 
 player to avoid consequences.
+
+Narrative Description:
 
 Spotlight Sprint immerses players in a tense and thrilling experience where every move counts. Players find themseleves in a light up area with 
 just his or herself with a person at the end of the area. A timer displays the remaining time to reach to the finish line. The player has only one
@@ -10,6 +14,7 @@ making it harder everytime the player gets closer. As the player plays, the red 
 is on. This challeging the player reflexs and nerves for this game. 
 
 Components:
+
 Sprites for the players: Visual representation pf the players on the course.
 
 Text display for game over: Displays message when the player fails to reach the finish line.
@@ -23,11 +28,18 @@ One button for the red light and green light: Allows the player to control the l
 
 2 LEDs: Indicates the status of the lights.
 
-Images of the game:
+Game scenes:
 
-Start scene
+Start scene:
 <img width="995" alt="Screenshot 2024-05-08 at 6 40 53 PM" 
 src="https://github.com/Cece209/CSC2463/assets/143728721/ffaa1685-51f5-4cd6-8191-91df6e61085c">
+Gameplay:
+<img width="991" alt="Screenshot 2024-05-08 at 6 42 16 PM" 
+src="https://github.com/Cece209/CSC2463/assets/143728721/1821ed35-d29a-4191-b524-439346ad1f1b">
+End scene:
+<img width="993" alt="Screenshot 2024-05-08 at 8 53 24 PM" src="https://github.com/Cece209/CSC2463/assets/143728721/8b0e918c-4079-4539-8d18-b7068921c5c2">
+
+More images:
 
 Person at the end:
 ![PC Computer - Spelunky - Meat Boy](https://github.com/Cece209/CSC2463/assets/143728721/282443b7-f09e-4062-a0dc-7d9ea13edb01)
